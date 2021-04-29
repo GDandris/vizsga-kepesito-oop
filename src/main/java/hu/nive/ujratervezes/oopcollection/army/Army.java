@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Army {
 
-    private List<MilitaryUnit> army = new ArrayList();
+    private List<MilitaryUnit> army = new ArrayList<>();
 
     public void addUnit(MilitaryUnit militaryUnit){
         army.add(militaryUnit);
